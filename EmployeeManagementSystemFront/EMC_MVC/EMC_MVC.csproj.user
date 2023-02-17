@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>EMC_MVC.Data.EMC_MVCContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\Becem\Desktop\EMS\EmployeeManagementSystemFront\EMC_MVC\Properties\PublishProfiles\employeemanagementsystemFRONT - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
