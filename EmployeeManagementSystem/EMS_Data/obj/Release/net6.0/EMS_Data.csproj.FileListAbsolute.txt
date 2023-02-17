@@ -1,0 +1,17 @@
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Data.deps.json
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Data.runtimeconfig.json
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Data.dll
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Data.pdb
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Domain.dll
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\bin\Release\net6.0\EMS_Domain.pdb
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.csproj.AssemblyReference.cache
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.AssemblyInfoInputs.cache
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.AssemblyInfo.cs
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.csproj.CoreCompileInputs.cache
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.csproj.CopyComplete
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.dll
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\refint\EMS_Data.dll
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.pdb
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\EMS_Data.genruntimeconfig.cache
+C:\Users\Becem\Desktop\EMS\EmployeeManagementSystem\EMS_Data\obj\Release\net6.0\ref\EMS_Data.dll

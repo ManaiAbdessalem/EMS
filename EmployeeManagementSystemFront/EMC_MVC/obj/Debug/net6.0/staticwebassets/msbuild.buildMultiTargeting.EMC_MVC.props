@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EMC_MVC.props" />
+</Project>

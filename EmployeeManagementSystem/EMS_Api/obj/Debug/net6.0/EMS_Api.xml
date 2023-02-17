@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMS_Api</name>
+    </assembly>
+    <members>
+        <member name="T:EMS_Api.Controllers.EmployeeController">
+            <summary>
+            Controller <see cref="T:EMS_Api.Controllers.EmployeeController"/> containing Employee actions.
+            </summary>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.#ctor(EMS_Service.EmployeeAggreagate.IEmployeeService,AutoMapper.IMapper)">
+            <summary>
+            Constructor of EmployeeController.
+            </summary>
+            <param name="employeeService">employeeService</param>
+            <param name="mapper">mapper</param>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get all employees.
+            </summary>
+            <returns>List of EmployeeResponse</returns>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.GetEmployeeById(System.Int32)">
+            <summary>
+            Get employee by id.
+            </summary>
+            <returns>EmployeeResponse</returns>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.SearchEmployees(System.String)">
+            <summary>
+            Search Employees by name, department, or email.
+            </summary>
+            <returns>List of EmployeeResponse</returns>n
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.CreateEmployee(EMS_Api.CreateEmployeeAggreagate.EmployeeRequest)">
+            <summary>
+            Create employee.
+            </summary>
+            <param name="createEmployeeRequest">createEmployeeRequest</param>
+            <returns>EmployeeResponse</returns>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.UpdateEmployee(System.Int32,EMS_Api.CreateEmployeeAggreagate.UpdateEmployeeRequest)">
+            <summary>
+            Update an Employee.
+            </summary>
+            <param name="id">id of Employee to update</param>
+            <param name="updateEmployeeRequest">updateEmployeeRequest</param>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Delte an employee.
+            </summary>
+            <param name="id">id employee to delete</param>
+        </member>
+        <member name="M:EMS_Api.Controllers.EmployeeController.ThrowAxception">
+            <summary>
+            Throw exception --> used to demonstrate Azure Appinsights.
+            </summary>
+        </member>
+        <member name="T:EMS_Api.CreateEmployeeAggreagate.EmployeeProfile">
+            <summary>
+            EmployeeProfile.
+            </summary>
+        </member>
+        <member name="M:EMS_Api.CreateEmployeeAggreagate.EmployeeProfile.#ctor">
+            <summary>
+            Constructor of EmployeeProfile
+            </summary>
+        </member>
+        <member name="T:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest">
+            <summary>
+            Class <see cref="T:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest"/>
+            </summary>
+        </member>
+        <member name="P:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest.Name">
+            <summary>
+            Employee Name.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest.Email">
+            <summary>
+            Employee Email.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest.DateOfBirth">
+            <summary>
+            Employee date of birth.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.CreateEmployeeAggreagate.EmployeeRequest.Department">
+            <summary>
+            Employee Department.
+            </summary>
+        </member>
+        <member name="T:EMS_Api.CreateEmployeeAggreagate.EmployeeValidator">
+            <summary>
+            EmployeeValidator Validator
+            </summary>
+        </member>
+        <member name="M:EMS_Api.CreateEmployeeAggreagate.EmployeeValidator.#ctor">
+            <summary>
+            Constructor of CreateEmployeeValidator.
+            </summary>
+        </member>
+        <member name="T:EMS_Api.CreateEmployeeAggreagate.UpdateEmployeeRequest">
+            <summary>
+            Class <see cref="T:EMS_Api.CreateEmployeeAggreagate.UpdateEmployeeRequest"/>
+            </summary>
+        </member>
+        <member name="P:EMS_Api.CreateEmployeeAggreagate.UpdateEmployeeRequest.Id">
+            <summary>
+            Id of Employee.
+            </summary>
+        </member>
+        <member name="T:EMS_Api.EmployeeAggreagate.EmployeeResponse">
+            <summary>
+            Class <see cref="T:EMS_Api.EmployeeAggreagate.EmployeeResponse"/>
+            </summary>
+        </member>
+        <member name="P:EMS_Api.EmployeeAggreagate.EmployeeResponse.Id">
+            <summary>
+            Id of Employee.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.EmployeeAggreagate.EmployeeResponse.Name">
+            <summary>
+            Employee Name.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.EmployeeAggreagate.EmployeeResponse.Email">
+            <summary>
+            Employee Email.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.EmployeeAggreagate.EmployeeResponse.DateOfBirth">
+            <summary>
+            Employee date of birth.
+            </summary>
+        </member>
+        <member name="P:EMS_Api.EmployeeAggreagate.EmployeeResponse.Department">
+            <summary>
+            Employee Department.
+            </summary>
+        </member>
+    </members>
+</doc>
